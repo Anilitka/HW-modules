@@ -8,7 +8,7 @@ class User {
 
     }
     Role(){
-        return this.role == 'admin' ? 'ადმინი' : 'მომხმარებელი';
+       return this.role ? 'ადმინი' : 'მომხმარებელი';
     }
     Login(){
         return this.login
